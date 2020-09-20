@@ -8,11 +8,14 @@ import FAQ from './Pages/FAQ';
 import AboutEllen from './Pages/aboutEllen';
 import BookAppointment from './Pages/bookAppointment';
 import SkinServices from './Pages/services';
+import PageTemplate from './Pages/page-template';
 import NoMatch from './Pages/404';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
+if (typeof window !== 'undefined') {
+  window.React = React;
+}
 
 class Root extends React.Component {
     state = {
@@ -33,6 +36,12 @@ class Root extends React.Component {
               path={`${process.env.PUBLIC_URL}/book-appointment`}
               render={props => (
                 <BookAppointment  />
+              )}
+            />
+            <Route
+              path={`${process.env.PUBLIC_URL}/page-template`}
+              render={props => (
+                <PageTemplate />
               )}
             />
             <Route
