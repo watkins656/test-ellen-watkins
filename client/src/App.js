@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import logo from './img/ellen-logo.PNG';
+import video from './video/Video.mov';
 import EllenNavbar from './Components/Navbar/Ellen-Navbar';
 
 function App() {
@@ -8,10 +9,12 @@ function App() {
     <div className="App">
 <EllenNavbar />  
       <div className="App-header">
-        <img src={logo} className="ellen-logo" alt="logo" />
+      <video className="ellen-video"  controls>
+      <source src={video} type="video/mp4" />
+     </video>
         <div className="fall">
-          Coming Fall 2020
-        </div>
+          Hi I'm Ellen Watkins, a licensed esthetician in Lee's Summit MO.  I'm passionate about working with others to achieve their skincare goals through facials and advanced skin treatments.  To learn more about what I offer, please check out my service menu.  
+                  </div>
         <div className="luxury">
           luxury skin services + treatments
         </div>
@@ -23,6 +26,7 @@ function App() {
         >
           LinkTree
         </a>
+
       </div>
     </div>
   );

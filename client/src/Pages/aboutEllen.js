@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import { Navbar, Nav, NavDropdown,Container, NavbarBrand, Carousel, Accordion, Card, Button } from 'react-bootstrap'
-import ellenFace from '../img/ellen-face.jpeg';
+import ellenFace from '../img/ellenface.jpg';
 import EllenNavbar from '../Components/Navbar/Ellen-Navbar';
 function App() {
   return (

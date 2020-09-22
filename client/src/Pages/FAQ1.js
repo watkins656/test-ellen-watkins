@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { Navbar, Nav, NavDropdown, Container, NavbarBrand, Carousel, Accordion, Card, Button } from 'react-bootstrap'
-import ellenFace from '../img/ellen-face.jpeg';
+import logo from '../img/placeholder.PNG';
 import EllenNavbar from '../Components/Navbar/Ellen-Navbar';
 function App() {
   return (
-    <div className="services-treatments-page">
-      <EllenNavbar />
-      {/* <div id="menu-images">
-        <div className="text-center">Click to Enlarge</div>
-      </div> */}
-
-      <div id="menu-item-descriptions-wrapper">
-        <div id="menu-item-descriptions-title">
-          FAQ
-          <div className="contact-table-header">
-        <table class="contact-table">
-
+    <div className="App">
+     <EllenNavbar />  
+      <div className="App-header">
+        <div className="App-link">
+          FAQ        
+          </div>
+          <table class="faq-table">
           <tbody>
             <tr>
               <td class="faq-table-question">How long are your facial services?</td>
@@ -28,14 +22,14 @@ function App() {
             </tr>
             <tr>
               <td class="faq-table-question">What is a facial?</td>
-              <td class="faq-table-answer pink-text">All facials will include a double cleanse, exfoliation, mask, facial massage, hand and arm massage, neck and shoulder massage, serums and an spf moisturizer.  Facial devices and additional implements can be added in by request or offered at my discretion.</td>
+              <td class="faq-table-answer pink-text">All facials will include a double cleanse, exfoliation, mask, facial massage, hand and arm massage, neck and shoulder massage, serums, spf moisturizer.  Facial devices and additional implements can be added in by request or offered at my discretion.</td>
             </tr>
             <tr>
               <td class="faq-table-question">Which facial is best for me?</td>
               <td class="faq-table-answer pink-text">
                 For first time clients, I always recommend starting with a Custom Facial.  
                 The Custom Facial will give me a chance to get to know your skin.  This facial is designed to nourish your skin and is unique to you.  The products chosen will be based upon my analysis of your skin.  
-                The Back Facial is great for those with sun damage, dry skin, and acne breakouts, or for those who workout.  
+                The Back Facial are great for those who struggle with sun damage, dry skin, and acne breakouts, or for those who workout.  
                 The Clarifying Facial is designed to help treat and soothe those with acneic skin, break outs and blackheads, and is also great for teen skin.  
                 The Anti-Aging Facial is for those with aging skin concerns such as fine lines and wrinkles, but is also preventative in nature.  
                 </td>
@@ -50,24 +44,9 @@ function App() {
             </tr>
           </tbody>
         </table>
- </div>
- </div>
-      
+ 
       </div>
-
-      <div className="footer-pink">
-        <Navbar color="dark" dark>
-          <Container>
-            <NavbarBrand style={{ margin: "auto" }}><a href="https://square.site/book/TSYFEFHW3V7VR/laser-no-razor-lee-s-summit-mo">Book Now!</a></NavbarBrand>
-          </Container>
-        </Navbar>
-      </div>
-    </div >
-
-
-
-
-
+    </div>
   );
 }
 

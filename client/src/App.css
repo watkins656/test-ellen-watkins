@@ -12,13 +12,26 @@
 .nav-first-column, .nav-second-column, .nav-third-column {}
 
 .ellen-booking-logo {
-  height: 60vmin;
-  pointer-events: none;
+  height: 50vmin;
+  margin-top: 5vmin;
 }
 .ellen-logo {
   height: 60vmin;
-  pointer-events: none;
-padding: 5vmin 5vmin 5vmin 5vmin;
+margin: 5vmin 5vmin 5vmin 5vmin;
+border-style: outset;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: black;
+}
+.ellen-video {
+  height: 50vmin;
+margin: 5vmin 5vmin 5vmin 5vmin;
+border-style: outset;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -40,9 +53,17 @@ padding: 5vmin 5vmin 5vmin 5vmin;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.contact-table-header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 2vw);
+  color: white;
+}
 .book-appointment-header {
-  background-color: #4b826b;
-  min-height: 100vh;
+margin-top: 5vmin;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,6 +75,8 @@ padding: 5vmin 5vmin 5vmin 5vmin;
 .App-link {
   color: #fcd3db;
   font-style: italic;
+  font-weight: bolder;
+  text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
 }
 
 .luxury {
@@ -161,6 +184,11 @@ padding: 5vmin 5vmin 5vmin 5vmin;
   font-size: 6vmin;
   color: black;
 }
+a:hover{
+color: #fcd3db;
+  text-decoration: underline;
+  text-decoration-color: #fcd3db;
+}
 
 .footer-pink {
   background-color: #fcd3db;
@@ -191,6 +219,7 @@ padding: 5vmin 5vmin 5vmin 5vmin;
   margin: 5vmin 20% 0 20%;
  font-weight: bolder;
  font-size: 120%;
+ text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.958851px 0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.141474px 1.99499px 0px, rgb(0, 0, 0) -0.832294px 1.81859px 0px, rgb(0, 0, 0) -1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px, rgb(0, 0, 0) -1.87291px -0.701566px 0px, rgb(0, 0, 0) -1.30729px -1.5136px 0px, rgb(0, 0, 0) -0.421592px -1.95506px 0px, rgb(0, 0, 0) 0.567324px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px, rgb(0, 0, 0) 1.92034px -0.558831px 0px;
 }
 
 .faq-table {
