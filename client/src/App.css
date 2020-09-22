@@ -206,6 +206,9 @@ color: #fcd3db;
 
 .service-menu-card {
   border: 10px solid #9c9b99;
+  border-radius: 25px;
+
+background-image: url('./img/linen.png');
 }
 
 .Booking-text {

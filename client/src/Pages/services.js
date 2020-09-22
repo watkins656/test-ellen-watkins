@@ -55,7 +55,7 @@ function App() {
           MENU
           </div>
         <div id="menu-item-descriptions-subtitle">
-          Click for details
+          Click the '+' for details
           </div>
         <Accordion defaultActiveKey="facials" className="menu-item-descriptions-accordion">
 
@@ -154,6 +154,19 @@ function App() {
 
 
 
+          <Card className="service-menu-card service-menu-header-card">
+            <Card.Header class="menu-item-description">
+              <Accordion.Toggle as={Button} variant="link" eventKey="hyrdrafacials"  className="wrap-text">
+                <div class="menu-card-header-text">
+                  HYDRAFACIAL +
+                    </div>
+              </Accordion.Toggle>
+            </Card.Header>
+            <Accordion.Collapse eventKey="hyrdrafacials">
+              <Card.Body>Using gentle relaxing water exfoliation, excess oil, dead skin and impurities are extracted from the pores.  Moisturizing serums and peptides are infused to leave your skin feeling fresh and rejuvinated.
+</Card.Body>
+            </Accordion.Collapse>
+          </Card>
 
           <Card className="service-menu-card service-menu-header-card">
             <Card.Header class="menu-item-description">
@@ -242,7 +255,7 @@ function App() {
             </Card.Header>
             <Accordion.Collapse eventKey="microneedling-ormedic">
               <Card.Body>
-
+All the benefits of microneedling with an added Ormedic lift; this non-chemical peel rebalances, regenerates, and restores skin.
               </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -258,7 +271,7 @@ function App() {
             </Card.Header>
             <Accordion.Collapse eventKey="chemical-peel">
               <Card.Body>
-
+A peel stimulates the rate of skin exfoliation in a controlled manner.  Peels can reduce superficial imperfections while also building healthy skin structure.  Peels are recommended in a series of 3-6 treatments.
               </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -360,7 +373,7 @@ function App() {
             </Card.Header>
             <Accordion.Collapse eventKey="brow-wax">
               <Card.Body>
-                Brow wax
+                Brow wax.  It is what it is!
 </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -384,7 +397,7 @@ function App() {
             <Card.Header class="menu-item-description">
               <Accordion.Toggle as={Button} variant="link" eventKey="lash-lift" className="wrap-text">
                 <div class="menu-item-text">
-                  Lash Lift
+                  Lash Lift +
                     </div>
               </Accordion.Toggle>
             </Card.Header>
