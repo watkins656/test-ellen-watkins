@@ -251,6 +251,12 @@ color: #fcd3db;
   background-color: blaCK;
 }
 
+.about-ellen-text{
+  margin: 40px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
 .faq-table-question {
   vertical-align: top;
   padding: 0.5em 1em 1em 1em;
