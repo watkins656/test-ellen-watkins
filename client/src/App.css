@@ -27,11 +27,6 @@ border-style: outset;
 .ellen-video {
   height: 50vmin;
 margin: 5vmin 5vmin 5vmin 5vmin;
-border-style: outset;
-    border-width: 3px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -80,12 +75,10 @@ margin-top: 5vmin;
 }
 
 .luxury {
-  font-style: italic;
 }
 
 .fall {
-  margin-top: 30px;
-  font-style: italic;
+  margin: 30px 70px 30px 70px;
 }
 
 .menu {
@@ -228,11 +221,33 @@ color: #fcd3db;
   width: 80%;
 }
 
+@media screen and (max-width: 541px) {
+.ellen-video{
+  display:none;
+}
+}
+@media screen and (min-width: 772px) {
+    .ellen-video{
+      display:none;
+    }
+}
+  @media screen and (min-width: 542px) {
+  .ellen-video-narrow{
+    display: none;
+  }
+}
+@media screen and (max-width: 771px) {
+.ellen-video-wide{
+  display: none;
+}
+}
 @media screen and (max-width: 992px) {
   .faq-table {
     width: 100%;
   }
 }
+  
+
 
 .faq-table-question {
   vertical-align: top;
