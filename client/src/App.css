@@ -253,8 +253,8 @@ background-image: url('./img/linen.png');
   }
 }
   
-.video{
-  background-color: blaCK;
+.ellen-video-container{
+  background-color: black;
 }
 .ellen-reviews{
   max-width: 80%;

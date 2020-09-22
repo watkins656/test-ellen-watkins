@@ -16,6 +16,7 @@ function App() {
         <div className="fall">
 Put your best face forward: healthy, glowing skin starts here!
                   </div>
+                  <div className="ellen-video-container">
       <video className="ellen-video"  controls>
       <source src={video} type="video/mp4" />
      </video>
@@ -25,6 +26,7 @@ Put your best face forward: healthy, glowing skin starts here!
       <video className="ellen-video-narrow"  controls>
       <source src={videoNarrow} type="video/mp4" />
      </video>
+                  </div>
         <div className="fall">
           Hi, I'm Ellen Watkins, a licensed esthetician in Lee's Summit, MO.  I'm passionate about working with others to achieve their skincare goals through facials and advanced skin treatments.  To learn more about what I offer, please check out my service menu.  
                   </div>
