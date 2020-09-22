@@ -81,7 +81,7 @@
 .luxury {}
 
 .fall {
-  margin: 30px 70px 30px 70px;
+  margin: 30px 10vw 30px 10vw;
 }
 
 .menu {
@@ -189,6 +189,8 @@ a:hover {
 }
 
 .footer-pink {
+  font-size: xx-large;
+  font-weight: bolder;
   background-color: #fcd3db;
   justify-content: center;
   position: unset;
@@ -198,7 +200,7 @@ a:hover {
 }
 
 .footer-pink a {
-  color: black
+  color: #fcd3db
 }
 
 .service-menu-header-card {
@@ -237,7 +239,7 @@ a:hover {
 
 .ellen-video-container {
   background-color: black;
-  width: 65%;
+  width: 60%;
   margin: 30px;
   max-height: 70%;
 }
@@ -280,6 +282,7 @@ a:hover {
 
 .ellen-reviews {
   max-width: 80%;
+  margin: 5vh
 }
 
 .about-ellen-text {
@@ -319,3 +322,4 @@ a:hover {
     transform: rotate(360deg);
   }
 }
+
