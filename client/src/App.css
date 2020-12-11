@@ -278,30 +278,10 @@ a:hover {
   display: none;
 }
 
-@media screen and (max-width: 541px) {
-  .ellen-video {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 772px) {
-  .ellen-video {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 542px) {
-  .ellen-video-narrow {
-    display: none;
-  }
-}
 
 @media screen and (max-width: 771px) {
-  .ellen-video-wide {
-    display: none;
-  }
-  .ellen-video-container {
-    width: 50%
+  .ellen-picture-homepage {
+    max-width: 80%;
   }
 }
 
